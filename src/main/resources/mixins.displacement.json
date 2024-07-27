@@ -7,7 +7,7 @@
     "maxShiftBy": 5
   },
   "client": [
-    "MinecraftMixin"
+    "org.redthsgayclub.displacement.mixin.MinecraftMixin"
   ],
   "verbose": true
 }
