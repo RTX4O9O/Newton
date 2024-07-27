@@ -2,19 +2,12 @@ package org.redthsgayclub.displacement.config;
 
 import cc.polyfrost.oneconfig.config.annotations.*;
 import cc.polyfrost.oneconfig.config.core.OneKeyBind;
-import net.minecraft.client.Minecraft;
 import net.minecraft.util.Vec3;
-import org.redthsgayclub.displacement.DiscordWebhook;
 import org.redthsgayclub.displacement.Displacement;
 import org.redthsgayclub.displacement.FileUtil;
 import org.redthsgayclub.displacement.hud.Hud;
 import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
-
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Date;
-import java.util.Map;
 
 
 /**
