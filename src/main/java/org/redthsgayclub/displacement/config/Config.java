@@ -58,11 +58,17 @@ public class Config extends cc.polyfrost.oneconfig.config.Config {
                     double xMax = 0;
                     double yMax = 0;
                     double zMax = 0;
+                    double xMin = 0;
+                    double yMin = 0;
+                    double zMin = 0;
 
                     for (Vec3 vec3 : Displacement.trailList) {
                         if (vec3.xCoord > xMax) xMax = vec3.xCoord;
                         if (vec3.yCoord > yMax) yMax = vec3.yCoord;
                         if (vec3.zCoord > zMax) zMax = vec3.zCoord;
+                        if (vec3.xCoord < xMin) xMin = vec3.xCoord;
+                        if (vec3.yCoord < yMin) yMin = vec3.yCoord;
+                        if (vec3.zCoord < zMin) zMin = vec3.zCoord;
 
                         FileUtil.writeToFile(vec3.toString(), false);
                     }
